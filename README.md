@@ -37,3 +37,22 @@ npm i
 ou
 npm install (si vous préférez)
 ```
+---
+
+## Campagne de tests QA — Eco Bliss Bath
+
+Ce dépôt contient les travaux réalisés dans le cadre du projet QA Engineer OpenClassrooms.
+
+La campagne comprend :
+- 9 tests API automatisés avec Cypress ;
+- 2 tests Smoke automatisés ;
+- 1 test de sécurité XSS automatisé ;
+- 5 vérifications fonctionnelles manuelles.
+
+**Résultats :** 16 vérifications réussies sur 17. Une anomalie liée à l'ajout au panier d'un produit dont le stock est négatif a été relevée.
+
+### Documentation et résultats
+
+- [Consulter la documentation QA et les instructions d'exécution](frontend/README.md)
+- [Consulter les scripts de tests Cypress](frontend/cypress/e2e/)
+- [Consulter les rapports de tests automatisés](frontend/rapports-tests/)</TT>
