@@ -39,6 +39,5 @@ services:
       start_period: 30s 
 networks:
   symfony:
-  
 volumes:
 data:

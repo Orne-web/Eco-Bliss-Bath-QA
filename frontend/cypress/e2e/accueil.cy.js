@@ -6,4 +6,3 @@ describe("Page d'accueil - Eco Bliss Bath", () => {
       cy.contains("Produits").should("be.visible");
     });
   });
-  
