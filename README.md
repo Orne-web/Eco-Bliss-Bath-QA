@@ -22,11 +22,27 @@ Pour démarrer cette application web, les outils suivants sont nécessaires :
 
 Clonez le projet d'origine :
 
-`git clone https://github.com/OpenClassrooms-Student-Center/Eco-Bliss-Bath-V2.git`
+`git clone https://github.com/Orne-web/Eco-Bliss-Bath-QA.git `
 
 Accédez au dossier du projet :
 
-`cd Eco-Bliss-Bath-V2`
+ `cd Eco-Bliss-Bath-QA `
+
+ ### Configuration de l'environnement
+
+Avant de démarrer les conteneurs Docker, créez un fichier `.env` à partir du fichier `.env.example`.
+
+Dans le terminal PowerShell :
+
+`Copy-Item .env.example .env`
+
+Ouvrez ensuite le fichier `.env` et remplacez les valeurs d'exemple par des mots de passe locaux.
+
+**Important :** le fichier `.env` contient des informations confidentielles et ne doit pas être publié sur GitHub.
+
+Une fois la configuration terminée, démarrez les services avec :
+
+`docker compose up -d`
 
 Pour démarrer l'API et sa base de données :
 
