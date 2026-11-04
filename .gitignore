@@ -1,0 +1,22 @@
+# Données locales MariaDB
+/mysql/
+
+# Identifiants et secrets locaux
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Fichier de configuration sensible Cypress
+**/cypress.env.json
+
+# Sauvegardes SQL à vérifier avant publication
+/data/
+
+# Ignorer les rapports générés automatiquement
+/frontend/rapports-tests/
+
+# Conserver les trois rapports définitifs
+!/frontend/rapports-tests/resultats-api-d0d40fafc9ce03a51f8d2e533cf6ddef.xml
+!/frontend/rapports-tests/resultats-smoke-76610d89513b2756a50dac864cf100c3.xml
+!/frontend/rapports-tests/resultats-xss-4d3a557ed03d85906abfe50486737a45.xml

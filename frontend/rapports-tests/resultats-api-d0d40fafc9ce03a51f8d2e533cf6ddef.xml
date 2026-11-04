@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.610" tests="9" failures="1">
+  <testsuite name="Root Suite" timestamp="2026-10-27T14:04:43" tests="0" file="cypress\e2e\api.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Tests API - Eco Bliss Bath" timestamp="2026-10-27T14:04:43" tests="9" time="3.605" failures="1">
+    <testcase name="Tests API - Eco Bliss Bath doit vérifier que l&apos;API fonctionne" time="0.111" classname="doit vérifier que l&apos;API fonctionne">
+    </testcase>
+    <testcase name="Tests API - Eco Bliss Bath doit récupérer la liste des produits" time="0.135" classname="doit récupérer la liste des produits">
+    </testcase>
+    <testcase name="Tests API - Eco Bliss Bath doit récupérer un produit individuel" time="0.246" classname="doit récupérer un produit individuel">
+    </testcase>
+    <testcase name="Tests API - Eco Bliss Bath doit gérer la demande d&apos;un produit inexistant" time="0.163" classname="doit gérer la demande d&apos;un produit inexistant">
+    </testcase>
+    <testcase name="Tests API - Eco Bliss Bath doit vérifier si la création d&apos;un avis nécessite une authentification" time="0.105" classname="doit vérifier si la création d&apos;un avis nécessite une authentification">
+    </testcase>
+    <testcase name="Tests API - Eco Bliss Bath doit vérifier l&apos;accès au panier sans connexion" time="0.103" classname="doit vérifier l&apos;accès au panier sans connexion">
+    </testcase>
+    <testcase name="Tests API - Eco Bliss Bath doit récupérer le panier d&apos;un utilisateur connecté" time="0.681" classname="doit récupérer le panier d&apos;un utilisateur connecté">
+    </testcase>
+    <testcase name="Tests API - Eco Bliss Bath doit ajouter un produit disponible au panier" time="0.839" classname="doit ajouter un produit disponible au panier">
+    </testcase>
+    <testcase name="Tests API - Eco Bliss Bath doit refuser l&apos;ajout d&apos;un produit en rupture de stock" time="0.000" classname="doit refuser l&apos;ajout d&apos;un produit en rupture de stock">
+      <failure message="expected 200 to be one of [ 400, 409, 422 ]" type="AssertionError"><![CDATA[AssertionError: expected 200 to be one of [ 400, 409, 422 ]
+    at Context.eval (webpack://eco-bliss-bath/./cypress/e2e/api.cy.js:172:38)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

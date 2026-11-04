@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.553" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-11-02T10:20:56" tests="0" file="cypress\e2e\smoke.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Smoke tests - Eco Bliss Bath" timestamp="2026-11-02T10:20:56" tests="2" time="3.542" failures="0">
+    <testcase name="Smoke tests - Eco Bliss Bath doit afficher les éléments du formulaire de connexion" time="2.487" classname="doit afficher les éléments du formulaire de connexion">
+    </testcase>
+    <testcase name="Smoke tests - Eco Bliss Bath doit afficher le bouton Ajouter au panier pour un utilisateur connecté" time="0.913" classname="doit afficher le bouton Ajouter au panier pour un utilisateur connecté">
+    </testcase>
+  </testsuite>
+</testsuites>

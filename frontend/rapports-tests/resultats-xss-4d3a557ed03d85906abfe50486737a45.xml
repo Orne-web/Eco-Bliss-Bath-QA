@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.626" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-11-02T12:00:17" tests="0" file="cypress\e2e\xss.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Sécurité XSS - Eco Bliss Bath" timestamp="2026-11-02T12:00:17" tests="1" time="4.619" failures="0">
+    <testcase name="Sécurité XSS - Eco Bliss Bath doit empêcher l&apos;exécution de JavaScript dans les commentaires" time="4.538" classname="doit empêcher l&apos;exécution de JavaScript dans les commentaires">
+    </testcase>
+  </testsuite>
+</testsuites>
