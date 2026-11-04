@@ -12,38 +12,40 @@
 </p>
 
 # Prérequis
-Pour démarrer cet applicatif web vous devez avoir les outils suivants:
+
+Pour démarrer cette application web, les outils suivants sont nécessaires :
+
 - Docker
-- NodeJs
+- Node.js
 
-# Installation et démarrage
-Clonez le projet pour le récupérer
+## Installation et démarrage
 
-git clone https://github.com/OpenClassrooms-Student-Center/Eco-Bliss-Bath-V2.git
-cd Eco-Bliss-Bath-V2
-```
-Pour démarrer l'API avec ça base de données.
-```
-docker compose up -d
-```
-# Pour démarrer le frontend de l'applicatif
-Rendez-vous dans le dossier frontend
-```
-cd ./frontend
-```
-Installez les dépendances du projet
-```
-npm i
-ou
-npm install (si vous préférez)
-```
----
+Clonez le projet d'origine :
+
+`git clone https://github.com/OpenClassrooms-Student-Center/Eco-Bliss-Bath-V2.git`
+
+Accédez au dossier du projet :
+
+`cd Eco-Bliss-Bath-V2`
+
+Pour démarrer l'API et sa base de données :
+
+`docker compose up -d`
+
+Pour démarrer le frontend de l'application, rendez-vous dans le dossier frontend :
+
+`cd ./frontend`
+
+Installez les dépendances :
+
+`npm install`
 
 ## Campagne de tests QA — Eco Bliss Bath
 
 Ce dépôt contient les travaux réalisés dans le cadre du projet QA Engineer OpenClassrooms.
 
 La campagne comprend :
+
 - 9 tests API automatisés avec Cypress ;
 - 2 tests Smoke automatisés ;
 - 1 test de sécurité XSS automatisé ;
@@ -55,4 +57,4 @@ La campagne comprend :
 
 - [Consulter la documentation QA et les instructions d'exécution](frontend/README.md)
 - [Consulter les scripts de tests Cypress](frontend/cypress/e2e/)
-- [Consulter les rapports de tests automatisés](frontend/rapports-tests/)</TT>
+- [Consulter les rapports de tests automatisés](frontend/rapports-tests/)
